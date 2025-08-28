@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ORBA ART SPACE – Zwischen Pinsel und Pixel</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #4c1d95; /* Dunkellila */
+        --secondary-color: #f5f3ff; /* Sehr helles Sandgelb */
+        --accent-yellow: #facc15;
+        --accent-pink: #ec4899; /* Zartes Rosa/Koralle */
+        --accent-teal: #14b8a6;
+        --text-dark: #1e1b4b; /* Weicherer Textfarbton */
+        --text-light: #64748b;
+        --background-light: #ffffff;
+        --border-color: #e2e8f0;
+      }
+      body {
+        font-family: 'Manrope', sans-serif;
+        background-color: var(--background-light);
+      }
+      .nav-link {
+        @apply text-sm font-medium text-[var(--text-dark)] transition-colors duration-300 hover:text-[var(--primary-color)];
+      }
+      .section-title {
+        @apply text-3xl font-bold text-[var(--text-dark)] tracking-tight sm:text-4xl;
+      }
+      .section-subtitle {
+        @apply text-lg text-[var(--text-light)] mt-4 max-w-2xl mx-auto;
+      }
+    </style>
+</head>
+<body class="text-[var(--text-dark)]">
+<div class="relative flex size-full min-h-screen flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-lg border-b border-[var(--border-color)]">
+<div class="container mx-auto px-6 lg:px-8">
+<div class="flex h-20 items-center justify-between">
+<div class="flex items-center gap-3">
+<svg class="h-9 w-9 text-[var(--primary-color)]" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-xl font-bold tracking-tighter text-[var(--text-dark)]">ORBA ART SPACE</h1>
+</div>
+<nav class="hidden items-center gap-10 lg:flex">
+<a class="nav-link" href="#">Startseite</a>
+<a class="nav-link" href="#about">Über mich</a>
+<a class="nav-link" href="#courses">Kurse</a>
+<a class="nav-link" href="#gallery">Galerie</a>
+<a class="nav-link" href="#contact">Kontakt</a>
+</nav>
+<div class="flex items-center gap-2">
+<a class="hidden sm:inline-block rounded-lg px-5 py-2.5 text-sm font-semibold text-[var(--text-dark)] transition-colors duration-300 hover:bg-[var(--secondary-color)]" href="#">
+                Anmelden
+              </a>
+<a class="rounded-lg bg-[var(--primary-color)] px-5 py-2.5 text-sm font-semibold text-white shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--primary-color)]" href="#">
+                Registrieren
+              </a>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<section class="relative h-[90vh] min-h-[600px] w-full flex items-center justify-center">
+<div class="absolute inset-0 bg-cover bg-center opacity-20" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBQE8rtVg7P3YrYmAKDp04XNNRDU3BTQHbYJkeRkTdfZ50kt_rOsIFCzd6r3BA0yOVn70MKBUW3U11JWzcDIbAJwskfwlZhacnZxEYyQIR3NBPU8OYYPpv1ftqU_9VzyZ7AseG0-Ae7ldljByHSC2GujHlDEQQxWFa8UFCHGl3n_uv9_UMroH57o76Wg3mw1qy5lflSoXjEyF4b_fty-bkbW84eWaheaGZTCG1X-WZM7bTE5-VLaCzyK7sS0Ymhf7tBXQXbyORHaoQ");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-white via-white/80 to-transparent"></div>
+<div class="relative z-10 text-center">
+<div class="container mx-auto px-6 lg:px-8">
+<h1 class="text-5xl font-extrabold leading-tight tracking-tighter text-[var(--text-dark)] md:text-7xl">
+                Entdecke deine <span class="text-[var(--primary-color)]">kreative</span> Vision
+            </h1>
+<p class="mt-6 max-w-3xl mx-auto text-lg leading-8 text-[var(--text-light)]">
+                Die Kunstakademie bietet eine inspirierende Umgebung für aufstrebende Künstler, um ihre Fähigkeiten zu entwickeln und ihre Leidenschaft zu verfolgen. Werde Teil unserer bunten Gemeinschaft.
+            </p>
+<div class="mt-12">
+<a class="rounded-lg bg-[var(--primary-color)] px-8 py-4 text-base font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl" href="#courses">
+                  Jetzt Kurse entdecken
+                </a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 sm:py-32" id="about">
+<div class="container mx-auto px-6 lg:px-8">
+<div class="mx-auto max-w-3xl text-center">
+<h2 class="section-title">Über mich</h2>
+<p class="section-subtitle">
+                Künstlerin und Lehrerin mit russischer Ausbildung und langjähriger Praxis in Deutschland. Hier trifft traditionelle Maltechnik auf die kreative Zukunft mit KI. Ich glaube fest daran, dass Kunst eine Brücke zwischen Welten schlägt – der analogen und der digitalen. Begleiten Sie mich auf dieser farbenfrohen Reise!
+              </p>
+</div>
+</div>
+</section>
+<section class="bg-[var(--secondary-color)] py-24 sm:py-32" id="courses">
+<div class="container mx-auto px-6 lg:px-8">
+<div class="mx-auto max-w-2xl text-center mb-16">
+<h2 class="section-title">Unsere vielfältigen Kurse</h2>
+<p class="section-subtitle">Entdecken Sie die Vielfalt unserer kreativen Angebote und finden Sie Ihre Passion.</p>
+</div>
+<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+<div class="group flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-b-4 border-transparent hover:border-[var(--accent-pink)]">
+<div class="h-28 w-28 rounded-full bg-cover bg-center mb-6 border-4 border-white shadow-lg" style='background-image: url("https://picsum.photos/seed/kidsart/400/220");'></div>
+<h3 class="text-xl font-bold text-[var(--text-dark)]">Kunstkurse für Kinder</h3>
+<p class="mt-1 text-sm text-[var(--text-light)]">Spielerisch die Welt der Farben und Formen in unseren Kursen in Cottbus entdecken.</p>
+</div>
+<div class="group flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-b-4 border-transparent hover:border-[var(--accent-yellow)]">
+<div class="h-28 w-28 rounded-full bg-cover bg-center mb-6 border-4 border-white shadow-lg" style='background-image: url("https://picsum.photos/seed/adultart/400/220");'></div>
+<h3 class="text-xl font-bold text-[var(--text-dark)]">Malkurse für Erwachsene</h3>
+<p class="mt-1 text-sm text-[var(--text-light)]">Egal ob Anfänger oder Fortgeschrittener, finden Sie Ihren kreativen Ausdruck live vor Ort.</p>
+</div>
+<div class="group flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-b-4 border-transparent hover:border-[var(--primary-color)]">
+<div class="h-28 w-28 rounded-full bg-cover bg-center mb-6 border-4 border-white shadow-lg" style='background-image: url("https://picsum.photos/seed/aiart/400/220");'></div>
+<h3 class="text-xl font-bold text-[var(--text-dark)]">Kreativ mit KI</h3>
+<p class="mt-1 text-sm text-[var(--text-light)]">Entdecken Sie in Online-Kursen, wie künstliche Intelligenz Ihre Kreativität beflügeln kann.</p>
+</div>
+<div class="group flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-b-4 border-transparent hover:border-[var(--accent-teal)]">
+<div class="h-28 w-28 rounded-full bg-cover bg-center mb-6 border-4 border-white shadow-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAsdlT5fMHzyWKxTqZBXy7X42d_KaqGzp1-4B6i4N1sOAEeWvX6kkuV98ZccSPDZ_s2mjwnqW4o9b_wPQ7yOrLFCFGXoD-HN0IYAQ9oYJXKSGb8xwINcElWzi66FVNz1EaD-QOMr8UVBpekNMz_fW8qi1c4-VbGsys0YbHbY7OidhA9Af2yZbTeYKC96exILBjxn0JisH34Qu9fLvd2GgY4NVyvY8cBgnhDAbvGBqb4QEPC5sKRq8kkiVfL5LWIik8cxI-dHWtpZs");'></div>
+<h3 class="text-xl font-bold text-[var(--text-dark)]">Fotografie</h3>
+<p class="mt-1 text-sm text-[var(--text-light)]">Der eingefangene Moment</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 sm:py-32" id="gallery">
+<div class="container mx-auto px-6 lg:px-8">
+<div class="mx-auto max-w-2xl text-center mb-16">
+<h2 class="section-title">Galerie-Highlights</h2>
+<p class="section-subtitle">Ein Schaufenster der Werke unserer talentierten Studenten und Dozenten.</p>
+</div>
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 sm:gap-8">
+<div class="group relative overflow-hidden rounded-xl shadow-lg transition-shadow duration-300 hover:shadow-2xl">
+<div class="aspect-w-1 aspect-h-1">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style='background-image: url("https://picsum.photos/seed/gallery1/500/500");'></div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="font-bold text-white text-lg">Moderne Kunst</h3>
+<p class="mt-1 text-sm text-gray-200">Farbenfroh & Abstrakt</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl shadow-lg transition-shadow duration-300 hover:shadow-2xl">
+<div class="aspect-w-1 aspect-h-1">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style='background-image: url("https://picsum.photos/seed/gallery2/500/500");'></div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="font-bold text-white text-lg">Studentenwerke</h3>
+<p class="mt-1 text-sm text-gray-200">Junge Talente</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl shadow-lg transition-shadow duration-300 hover:shadow-2xl">
+<div class="aspect-w-1 aspect-h-1">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style='background-image: url("https://picsum.photos/seed/gallery3/500/500");'></div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="font-bold text-white text-lg">Installationen</h3>
+<p class="mt-1 text-sm text-gray-200">Raumgreifende Ideen</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl shadow-lg transition-shadow duration-300 hover:shadow-2xl">
+<div class="aspect-w-1 aspect-h-1">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAnnV734VC77UzHCJrrBAujZo6S00luboEPL62K0Wtv26CEzG0fMnAAJa8lLxf7BYRdjAz3c3FiBXfMiUW-hZ5_z_M3dhSdaf-UPJFOBejCY1TWm7Fps2Jim6GYqiKNKIqsxWGqGuXdnVpIMUJi15y98fE3wsp_HJyh1eYojNPArvdETHo9skcusDdhH4w7o2QG1lCVAgZM2FJuSoWQVoHMDxPuEctIu78-Tmr7yCACptQ1fLEJ6hYfT-79jaEuAdAkGgx4o2ZS2rE");'></div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="font-bold text-white text-lg">Fotografie</h3>
+<p class="mt-1 text-sm text-gray-200">Der eingefangene Moment</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-[var(--secondary-color)] py-24 sm:py-32" id="contact">
+<div class="container mx-auto px-6 lg:px-8">
+<div class="mx-auto max-w-2xl text-center mb-16">
+<h2 class="section-title">Treten Sie mit uns in Kontakt</h2>
+<p class="section-subtitle">Haben Sie Fragen oder möchten Sie sich anmelden? Wir sind für Sie da.</p>
+</div>
+<form class="mx-auto max-w-xl">
+<div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+<div>
+<label class="block text-sm font-semibold leading-6 text-[var(--text-dark)]" for="first-name">Name</label>
+<div class="mt-2.5">
+<input autocomplete="given-name" class="block w-full rounded-lg border-0 px-4 py-3 text-[var(--text-dark)] shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--primary-color)] sm:text-sm sm:leading-6 transition-shadow duration-300" id="first-name" name="first-name" placeholder="Ihr Name" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-semibold leading-6 text-[var(--text-dark)]" for="email">E-Mail</label>
+<div class="mt-2.5">
+<input autocomplete="email" class="block w-full rounded-lg border-0 px-4 py-3 text-[var(--text-dark)] shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--primary-color)] sm:text-sm sm:leading-6 transition-shadow duration-300" id="email" name="email" placeholder="Ihre E-Mail" type="email"/>
+</div>
+</div>
+<div class="sm:col-span-2">
+<label class="block text-sm font-semibold leading-6 text-[var(--text-dark)]" for="message">Nachricht</label>
+<div class="mt-2.5">
+<textarea class="block w-full rounded-lg border-0 px-4 py-3 text-[var(--text-dark)] shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--primary-color)] sm:text-sm sm:leading-6 transition-shadow duration-300" id="message" name="message" placeholder="Ihre Nachricht" rows="4"></textarea>
+</div>
+</div>
+</div>
+<div class="mt-10">
+<button class="block w-full rounded-lg bg-[var(--primary-color)] px-3.5 py-3 text-center text-sm font-semibold text-white shadow-md hover:bg-violet-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--primary-color)] transition-transform duration-300 hover:scale-105" type="submit">
+                  Nachricht senden
+                </button>
+</div>
+</form>
+</div>
+</section>
+</main>
+<footer class="bg-[var(--text-dark)] text-white">
+<div class="container mx-auto px-6 lg:px-8 py-16">
+<div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+<div class="flex items-center gap-3">
+<svg class="h-9 w-9 text-[var(--primary-color)]" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-xl font-bold tracking-tighter">ORBA ART SPACE</h1>
+</div>
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-2">
+<a class="text-sm text-gray-300 hover:text-white transition-colors" href="#">Datenschutz</a>
+<a class="text-sm text-gray-300 hover:text-white transition-colors" href="#">Impressum</a>
+<a class="text-sm text-gray-300 hover:text-white transition-colors" href="#">AGB</a>
+</div>
+</div>
+<div class="mt-10 border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
+<p>© 2025 Orba Art Space. Alle Rechte vorbehalten.</p>
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>
